@@ -284,6 +284,12 @@ span {
   transform: translateY(0);
 }
 
+.portfolio-layer .links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .portfolio-layer h4 {
   font-size: 3rem;
 }

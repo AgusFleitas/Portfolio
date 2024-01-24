@@ -35,7 +35,7 @@ window.onscroll = () => {
 };
 
 ScrollReveal({ 
-    // reset: true,
+    reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200 
@@ -47,9 +47,9 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 const typed = new Typed('.typed-text', {
-    strings: ['Fullstack Developer'],
+    strings: ['Fullstack Developer.'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 100,
+    backDelay: 800,
     loop: true
 })
